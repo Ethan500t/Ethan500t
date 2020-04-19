@@ -1,5 +1,5 @@
 body {
-  background-image: url(justLines.png), linear-gradient(to top, #3A3A3A, #4C4C4C, #3f3f3f, #595959);
+  background-image: url(imgs/justLines.png), linear-gradient(to top, #3A3A3A, #4C4C4C, #3f3f3f, #595959);
   background-repeat: no-repeat, repeat;
   background-attachment: fixed, scroll;
 }
