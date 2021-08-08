@@ -1,0 +1,122 @@
+/* You can add custom CSS and override boostrap styles in this file.  Remember, bootstrap is just CSS at the end of the day! */
+
+/* I don't see the need for a block element here to push down the rest of the page? doing so does not change anything incredibly important for my page. My hero img actually looks better sans being pushed down */
+
+
+/* SIZZLE I used bootstrap to make the navbar transparent, and added my own background color since we could not edit the default SASS variables */
+#nav-color{
+  background-color:#F06C9B;
+  box-shadow: 0 0 15px 5px rgba(30, 30, 30, 0.1);
+}
+
+#hero-section {
+  /* This should be an image. */
+  background-image: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,0)), url(img/heroImgMidTermV2.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+  /* Change this values to work for you. */
+  padding: clamp(20px, 50vh, 1000px) 0;
+  height: 100vh;
+}
+
+#profile-img {
+  /* Change this values to work for you. */
+  margin: 10px auto;
+ 
+
+  /* This should be an image */
+  background-image: url(img/CroppedCompressedProfile.jpg);
+  background-size: cover;
+  background-position: center;
+
+  /* Change this values to work for you. */
+  height: clamp(100px, 20vh, 500px);
+
+  /* Change this values to work for you. */
+  width: clamp(100px, 20vh, 500px);
+
+  border-radius:50%;
+
+} 
+
+#hero-text {
+  text-align: center;
+  color: #121212;
+  margin: 40px auto;
+  font-size: clamp(20px, 2.5vw, 80px);
+}
+
+#mission-img img{
+  border-radius:1vw;
+  max-height: clamp(30px, 75vh, 999px);
+  margin: auto;
+}
+
+.skill{
+  margin: clamp(5px, 2vw, 30px) auto;
+  border: 1px solid none;
+  text-align: center;
+}
+
+.skill img{
+  width:50%;
+  margin: clamp(5px, 2vw, 30px) 25%;
+  border: 1px solid none;
+}
+
+#html-skill{
+  filter:hue-rotate(180deg);
+}
+
+#java-skill{
+  filter:hue-rotate(22deg);
+}
+
+.contact{
+  margin:clamp(5px, 3vw, 50px) auto;
+  font-size: clamp(40px, 3vw, 80px);
+}
+
+.icon-style {
+  color:#121212;
+}
+
+.contact i:hover {
+  color: #F06C9B;
+}
+
+.section-margin{
+  margin: clamp(5px, 2vw, 30px) auto;
+}
+
+.heading-style{
+  margin: clamp(5px, 3vw, 200px) auto;
+  font-size: clamp(20px, 2.5vw, 80px);
+  text-align: center;
+  
+}
+
+.accent-background{
+  background-color:#44B4DA;
+}
+
+p{
+  font-size: clamp(1rem, 1.7vw, 5rem);
+}
+
+body{
+  background-color:#7AE1E1;
+  text-color: #121212;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+}
+
+footer{
+  height: 50px;
+  background-color: #F06C9B;
+  text-align: center;
+  padding: 10px;
+  margin-top:clamp(-50px, -3vw, -5px);
+}
