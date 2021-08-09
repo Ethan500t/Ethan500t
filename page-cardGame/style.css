@@ -129,3 +129,19 @@ h1 {
     background-color: rgba(0,0,0,0);
   }
 }
+
+
+#nav{
+  height: 100px;
+  width: 100vw;
+  background-color:#4f4;
+  background-attachment: fixed;
+}
+
+#home{
+  height: 50px;
+  width: 100px;
+  background-color: blue;
+  padding: 20px;
+  margin: auto 20px;
+}
