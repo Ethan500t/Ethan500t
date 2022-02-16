@@ -131,17 +131,23 @@ h1 {
 }
 
 
-#nav{
+#navBar{
   height: 100px;
   width: 100vw;
-  background-color:#4f4;
+  background-color:#e39b2d;
   background-attachment: fixed;
 }
 
 #home{
   height: 50px;
   width: 100px;
-  background-color: blue;
-  padding: 20px;
-  margin: auto 20px;
+  color:#e39b2d;
+  background-color: #197013;
+  padding: 30px;
+  margin: 50px 20px;
+}
+
+#homeTest{
+  color:#e39b2d;
+  padding: auto;
 }
