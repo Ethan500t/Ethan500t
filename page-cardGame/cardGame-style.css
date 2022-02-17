@@ -139,15 +139,30 @@ h1 {
 }
 
 #home{
+  float: right;
   height: 50px;
   width: 100px;
   color:#e39b2d;
   background-color: #197013;
-  padding: 30px;
-  margin: 50px 20px;
+  margin: 20px 20px 20px 20px;
+  border-radius: 10px;
+  text-align: center;
+  vertical-align: middle;
 }
 
 #homeTest{
   color:#e39b2d;
-  padding: auto;
+  font-weight: bold;
+  text-decoration-style: none;
+
+
+  /*display:inline-block;
+  position: relative;
+  width: 50px;
+  height: 20px;
+   Center vertically 
+  top: 30%;
+  margin-top: -20px;*/
+
 }
+
