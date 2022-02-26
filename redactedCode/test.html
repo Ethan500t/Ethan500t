@@ -1,0 +1,28 @@
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.0.0.min.js">
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/typeit/6.5.1/typeit.min.js">
+</script>
+<style>
+	body {
+		font-size: 2em;
+	}
+</style>
+<h1 style="text-align:center;">Animated Typing with TypeIt.js</h1>
+<p id="example1"></p>
+<script type="text/javascript">
+	new TypeIt("#example1", {
+      strings: "This is a simple string.",
+      speed: 50,
+      waitUntilVisible: true
+    }).go();
+
+</script>
+<p id="example2"></p>
+<script type="text/javascript">
+	new TypeIt("#example2", {
+      strings: ['This is a simple string','But here is a better one.'],
+      speed: 50,
+      waitUntilVisible: true
+    }).go();
+
+</script>

@@ -11,7 +11,8 @@
 
 #hero-section {
   /* This should be an image. */
-  background-image: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,0)), url(page-AiClass/img/codeScreenshot.png);
+  background-image: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,0)), url(img/codeScreenshot.png);
+  
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -27,7 +28,7 @@
  
 
   /* This should be an image */
-  background-image: url(img/CroppedCompressedProfile.jpg);
+  background-image: url(img/gitHubCopilot.png);
   background-size: cover;
   background-position: center;
 
@@ -43,7 +44,7 @@
 
 #hero-text {
   text-align: center;
-  color: #121212;
+  color: #02c352;
   margin: 40px auto;
   font-size: clamp(20px, 2.5vw, 80px);
 }
@@ -63,19 +64,6 @@
   text-align: center;
 }
 
-.skill img{
-  width:50%;
-  margin: clamp(5px, 2vw, 30px) 25%;
-  border: 1px solid none;
-}
-
-#html-skill{
-  filter:hue-rotate(180deg);
-}
-
-#java-skill{
-  filter:hue-rotate(22deg);
-}
 
 .contact{
   margin:clamp(5px, 3vw, 50px) auto;
@@ -112,15 +100,36 @@ p{
 
 body{
   background-color:#7AE1E1;
-  text-color: #121212;
+  color: #121212;
   font-family: 'Ubuntu', sans-serif;
   font-weight: 400;
 }
 
 footer{
   height: 50px;
-  background-color: #F06C9B;
+  background-color: #02c352;
   text-align: center;
   padding: 10px;
   margin-top:clamp(-50px, -3vw, -5px);
 }
+
+.code-comment{
+  font-size: 1.5rem;
+  color: #bdbdbd
+}
+
+.code-container{
+  background-color:#303030;
+  color: acacac;
+  padding: 1rem;
+  margin: 2rem;
+  border-width: .5rem;
+  border-radius: .5rem;
+  border-color:#303030;
+
+  min-height: 400px;
+}
+
+
+
+
