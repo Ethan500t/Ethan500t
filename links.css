@@ -1,0 +1,23 @@
+body{
+  background-color:#dcfefe;
+  text-color: #121212;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  font-size: clamp(1rem, 1.5vw, 5rem);
+  padding: 1rem;
+
+}
+
+li{
+  margin-top:1rem;
+  margin-bottom:1rem;
+}
+
+a{
+  font-weight:500;
+  color: #135271;
+}
+
+a:visited{
+  color: #6820d5;
+}

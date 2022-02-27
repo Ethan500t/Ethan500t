@@ -49,13 +49,13 @@
   font-size: clamp(20px, 2.5vw, 80px);
 }
 
-#mission-img{
+#creativity-img{
   align-content: center;
 }
 
-#mission-img img{
+#creativity-img img{
   border-radius:1vw;
-  max-height: clamp(30px, 75vh, 999px);
+  max-height: clamp(30px, 40vh, 999px);
 }
 
 .skill{

@@ -1,7 +1,7 @@
 
 
 instance1 = new TypeIt("#human-code", {
-  speed: 100,//100,
+  speed: 20,//100,
   waitUntilVisible: true,
   cursorChar: "<strong>|</strong>"
 })
@@ -13,8 +13,10 @@ instance1 = new TypeIt("#human-code", {
   .type("<span class='code-keyword-atribute'>type</span>:")
   .type("&nbsp;<span class='code-keyword-string'>'Compiter Engeneer'</span>&nbsp;,")
   .delete(16)
-  .type("<span class='code-keyword-string'>uter Engineer'<span>").type("&nbsp;,").break()
-  .type("<span class='code-keyword-atribute'>location</span>: 'Earth',").break()
+  .type("<span class='code-keyword-string'>uter Engineer'</span>")
+  .type("&nbsp;,").break()
+  .type("<span class='code-keyword-atribute'>location</span>:")
+  .type("&nbsp;<span class='code-keyword-string'>'Earth'</span> ,").break()
   .type("<span class='code-keyword-atribute'>properties</span>: 'Tired'").break()
   .type("}")
   .go();
@@ -35,7 +37,7 @@ instance2 = new TypeIt("#ai-code", {
   .type("<span class='code-keyword-atribute'>name</span>: 'Ethan Tracy',", { instant: true }).break()
   .type("<span class='code-keyword-atribute'>type</span>: 'Computer Engineer',", { instant: true }).break()
   .type("<span class='code-keyword-atribute'>location</span>: 'Earth',", { instant: true }).break()
-  .type("<span class='code-keyword-atribute'>properties</span>: 'Tired',", { instant: true }).break()
+  .type("<span class='code-keyword-atribute'>properties</span>: 'Tired'", { instant: true }).break()
   .type("}")
   .go();
 
