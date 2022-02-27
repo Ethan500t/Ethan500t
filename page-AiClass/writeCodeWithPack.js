@@ -1,7 +1,7 @@
 
 
 instance1 = new TypeIt("#human-code", {
-  speed: 20,//100,
+  speed: 75,//100,
   waitUntilVisible: true,
   cursorChar: "<strong>|</strong>"
 })
@@ -17,7 +17,8 @@ instance1 = new TypeIt("#human-code", {
   .type("&nbsp;,").break()
   .type("<span class='code-keyword-atribute'>location</span>:")
   .type("&nbsp;<span class='code-keyword-string'>'Earth'</span> ,").break()
-  .type("<span class='code-keyword-atribute'>properties</span>: 'Tired'").break()
+  .type("<span class='code-keyword-atribute'>properties</span>:")
+  .type("&nbsp;<span class='code-keyword-string'>'Tired'</span>").break()
   .type("}")
   .go();
 
@@ -33,11 +34,18 @@ instance2 = new TypeIt("#ai-code", {
   speed: 0,
   waitUntilVisible: true,
 })
-  .type("<span class='code-keyword-var'>var</span> person = {", { instant: true }).break()
-  .type("<span class='code-keyword-atribute'>name</span>: 'Ethan Tracy',", { instant: true }).break()
-  .type("<span class='code-keyword-atribute'>type</span>: 'Computer Engineer',", { instant: true }).break()
-  .type("<span class='code-keyword-atribute'>location</span>: 'Earth',", { instant: true }).break()
-  .type("<span class='code-keyword-atribute'>properties</span>: 'Tired'", { instant: true }).break()
+  .type("<span class='code-keyword-var'>var</span>") // "var"
+  .type("&nbsp;<span class='code-keyword-obj'>person</span> = {") // "persin = {"
+  .break() //first line: "var person = {"
+  .type("<span class='code-keyword-atribute'>name</span>:")
+  .type("&nbsp;<span class='code-keyword-string'>'Ethan Tracy'</span>&nbsp;,").break() // second line: "name: 'Ethan Tracy',"
+  .type("<span class='code-keyword-atribute'>type</span>:")
+  .type("&nbsp;<span class='code-keyword-string'>'Computer Engineer'</span>&nbsp;,")
+  .break()
+  .type("<span class='code-keyword-atribute'>location</span>:")
+  .type("&nbsp;<span class='code-keyword-string'>'Earth'</span> ,").break()
+  .type("<span class='code-keyword-atribute'>properties</span>:")
+  .type("&nbsp;<span class='code-keyword-string'>'Tired'</span>").break()
   .type("}")
   .go();
 

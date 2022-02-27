@@ -54,20 +54,8 @@
 }
 
 #creativity-img img{
-  border-radius:1vw;
-  max-height: clamp(30px, 40vh, 999px);
-}
-
-.skill{
-  margin: clamp(5px, 2vw, 30px) auto;
-  border: 1px solid none;
-  text-align: center;
-}
-
-
-.contact{
-  margin:clamp(5px, 3vw, 50px) auto;
-  font-size: clamp(40px, 3vw, 80px);
+  border-radius: 1vw;
+  max-height: clamp(30px, 45vh, 999px);
 }
 
 .icon-style {
