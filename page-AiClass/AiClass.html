@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html
 <html>
 
 <head>
@@ -53,7 +53,7 @@
 	<div id="nav-color" class="sticky-top">
 		<nav id="nav-color" class="navbar navbar-expand-md navbar-light bg-transparent">
 			<div class="container-fluid">
-				<a class="navbar-brand" href="/index.html">🏠</a>
+				<a id="home-logo" class="navbar-brand" href="#home">🏠</a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -69,10 +69,7 @@
           <a class="nav-link active" href="#solution">Solution</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="#inspiration">Expected Result</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="test.html" aria-disabled="true">test</a>
+          <a class="nav-link active" href="#expected-result">Expected Result</a>
         </li>
       </ul>
     </div>
@@ -88,8 +85,8 @@
 
   <!-- Mission/Meet-me section -->
   <section class="pt-5 pb-5">
-    <a name="what-is-programming"></a>
-    <div class="container">
+    <a name="career"></a>
+    <div class="container-fluid tighten">
       <div class="row">
         <div class="heading-style col-12">What does it take to program?</div>
       </div>
@@ -98,7 +95,7 @@
           <span><img class="mx-auto d-block" src="img/creativity.jpg" alt="Creativity stock imgage"></span>
         </div>
         <div class="col-xl-8 col-12">
-          <p> Programming is really like connecting two points using tetris style blocks. Your goal is simple but you have to take what you are given and use it extremely efficently to be good at it. Programming is using a bunch of tools you are given that all have their own purpose, and meshing them together in a way that allows you to take the info you are given or can collect and get to your desired outcome. Meaning that creativity plays a very large role in being a good programmer
+          <p> Programming is really like connecting two points using Tetris style blocks. Your goal is simple, but you have to take what you are given and use it extremely efficiently to be good at it. Programming is using a bunch of tools you are given that all have their own purpose and meshing them together in a way that allows you to take the info you are given or can collect and get to your desired outcome. Meaning that creativity plays a very large role in being a good programmer.
           </p>
         </div>
       </div>
@@ -106,19 +103,16 @@
   </section>
 
   <section class="accent-background pt-5 pb-5">
-    <a name="ai-in-programming"></a>
+    <a name="issue"></a>
     <div class="container">
       <div class="row">
         <div class="heading-style col-12">What is Ai doing to Programming?</div>
       </div>
       <div class="row">
-        <div class="col-md-6 col-12 mb-6">
+        <div class="col-12 mb-6">
           <p>
-            The issue that is arising due to the growth of AI technology is the possiblity that the job is going to be fully replaced. While that is a long shot for now, a good course of action is to make use of AI to make yourself a better job candidiate. <br> This is difficult right now because AI coding assistants are not generating new code on their own, they are using bits and pieces of code pieced together from open source projects found across the internet.
+            The issue that is arising due to the growth of AI technology is the possibility that the job is going to be fully replaced. While that is a long shot for now, a good course of action is to make use of AI to make yourself a better job candidate. <br> This is difficult right now because AI coding assistants are not generating new code on their own, they are using bits and pieces of code pieced together from open source projects found across the internet.
           </p>
-        </div>
-        <div class="col-md-6 col-12">
-          <p>This is space for text</p>
         </div>
       </div>
     </div>
@@ -127,30 +121,28 @@
 
 
   <!-- Code Section -->
-  <section class="pt-5 pb-5">
+  <section class="pt-5 pb-5 d-none d-md-block">
     <a name="human-ai-coding"></a>
-    <div class="container">
+    <div class="container-fluid d-none d-md-block tighten">
       <div class="row">
         <div class="heading-style col-12">Human Coding Vs AI Coding?</div>
       </div>
       <div id="mission-section" class="row">
         <div id="mission-img" class="col-md-6 col-12 mb-6">
-          <h3>Human Code</h3>
-          <button id="human-code-button">Click to Reset</button>
+          <h3 class="code-headings">Human Code</h3>
           <div class='code-container'>
             <p class='code-comment'>Given #person object with attributes name, type, location, and properties. equal to (Ethan Tracy, Computer Engineer, Earth, Tired) </p>
             <p id="human-code"></p>
-      
           </div>
+          <button id="human-code-button">Click to Reset</button>
         </div>
         <div class="col-md-6 col-6">
-          <h3>AI Code</h3>
-          <button id="ai-code-button">Click to Reset</button>
+          <h3 class="code-headings align-self-center">AI Code</h3>
           <div class='code-container'>
             <p class="code-comment">Given #person object with attributes name, type, location, and properties. equal to (Ethan Tracy, Computer Engineer, Earth, Tired) </p>
             <p id="ai-code"></p>
-            
           </div>
+          <button id="ai-code-button">Click to Reset</button>
         </div>
       </div>
       <div class="row">
@@ -164,21 +156,46 @@
 
 
   <section class="accent-background pt-5 pb-5">
-    <a name="my-ai"></a>
-    <div class="container">
+    <a name="solution"></a>
+    <div class="container-fluid tighten">
       <div class="row">
-        <div class="heading-style col-12">What I would like my AI to provide</div>
+        <div class="heading-style col-12">What I would like my AI to provide?</div>
       </div>
       <div class="row">
         <div class="col-md-4 col-12 mb-6 float-left">
           <h2>Example Programming Problem</h2>
           <p>
-            To illistrate what I would like my AI to acomplish I would like to use an example of how it will work to solve a problem. <br><br> Lets say that we want to create a function (just a tool for doing a job easier) that multiplies 2 numbers we give it together and give the result back to us
+            To illustrate what I would like my AI to accomplish I would like to use an example of how it will work to solve a problem. <br><br> Let’s say that we want to create a function ( Just a tool for doing a job easier) that multiplies 2 numbers we give it together and give the result back to us
           </p>
         </div>
-        <div class="col-md-8 col-12">
-          <p>This is space for text</p>
+        <div id="code-img" class="col-md-8 col-12">
+          <span><img class="mx-auto d-block" src="img/biggerCodeShot.png" alt="Code screen shot"></span>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pt-5 pb-5">
+    <div class="container-fluid tighten">
+      <div class="row">
+        <div class="heading-style col-12">Working example showing error.</div>
+      </div>
+      <div class="row">
+        <div class="">
+          <iframe src="https://trinket.io/embed/python/68d162787a" width="100%" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="accent-background pt-5 pb-5">
+    <a name="expected-result"></a>
+    <div class="container">
+      <div class="row">
+        <div class="heading-style col-12">What I expect to happen given this solution?</div>
+      </div>
+      <div class="row">
+        <p id="final-text">I expect that the baseline problem solving skills and creativity found in more novice programmers will greatly increase. I see this solution helping programmers get through the hardest part of their software development career, while also being able to come out better prepared for more complex projects and problems they run into.</p>
       </div>
     </div>
   </section>

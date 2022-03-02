@@ -3,11 +3,11 @@
 button {
   border: 3px solid #44B4DA;
   border-radius: 1rem;
-  padding: 1rem;
+  padding: .7rem;
   background: #02c352;
   font-size: 1rem;
   cursor: pointer;
-  margin: 1.5rem;
+  margin: 0 0 1.5rem 2.5rem;
 }
 button:hover {
   background: #44B4DA;

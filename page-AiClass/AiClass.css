@@ -18,7 +18,7 @@
   background-attachment: fixed;
 
   /* Change this values to work for you. */
-  padding: clamp(20px, 50vh, 1000px) 0;
+  padding: clamp(20px, 20vh, 1000px) 0;
   height: 100vh;
 }
 
@@ -55,7 +55,26 @@
 
 #creativity-img img{
   border-radius: 1vw;
-  max-height: clamp(30px, 45vh, 999px);
+  max-height: clamp(30px, 30vw, 999px);
+}
+
+#code-img img{
+  border-radius: 1vw;
+  max-height: clamp(30px, 30vw, 999px);
+}
+
+#home-logo{
+  background-color:#02c352;
+  padding: .25rem .5rem .25rem .5rem;
+  border-radius: .5rem;
+}
+
+#home-logo :hover{
+  background-color:#169149;
+}
+
+#final-text{
+  padding-bottom: 3rem;
 }
 
 .icon-style {
@@ -82,7 +101,23 @@
   background-color:#44B4DA;
 }
 
+.tighten{
+  padding: 0rem 3rem 3rem 3rem;
+}
+
+.code-headings{
+  margin-left: 2rem;
+}
+
 p{
+  font-size: clamp(1rem, 1.7vw, 5rem);
+}
+
+h3{
+  font-size: clamp(1rem, 1.7vw, 5rem);
+}
+
+h2{
   font-size: clamp(1rem, 1.7vw, 5rem);
 }
 
