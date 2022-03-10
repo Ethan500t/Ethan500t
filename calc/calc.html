@@ -1,39 +1,105 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <link rel="stylesheet" href="calc.css">
-    <meta charset="UTF-8">
-    <title>Calculator</title>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    
+    <!-- Remember to replace this with your title! -->
+    <title>Meet Ethan Tracy</title>
 
-</head>
+    <!-- SIZZLE I brought in my fonts from a previous skill bulider and implemented them in my CSS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Kaushan+Script&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Viaoda+Libre&display=swap" rel="stylesheet">
+    
+    <!-- Link for boostrap from: 
+    https://getbootstrap.com/docs/5.0/getting-started/introduction -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-<body>
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 
-    <div class="heading" id="output">
-        <h1>whats up <br> dudes <br> expanding</h1>
+    <!-- Custom styles (these can extend bootstrap which is JUST CSS!) -->
+    <link href="calc.css" rel="stylesheet" type="text/css" />
+
+  </head>
+
+  <body>
+
+  <a name="home"></a>
+  <!-- Navbar: Skip this and start with the hero section. When You're ready to return start by copy/pasting this snippet:
+
+  https://getbootstrap.com/docs/5.0/components/navbar/#nav 
+  -->
+  <!-- PASTE NAVBAR CODE TO CUSTOMIZE -->
+  <div id="navigation-filler"></div>
+
+  <div id="nav-color" class="sticky-top"><nav id="nav-color" class="navbar navbar-expand-md navbar-light bg-transparent">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/index.html#home">🏠</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav" id="navCrap">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#mission">Mission</a>
+        </li>
+      </ul>
     </div>
+  </div>
+</nav></div>
+  
 
-    <div id="leftDiv">
-    hello
-    <a href="../index.html">Home</a>
-    <a href="../calc/calc.html">Calculator</a>
-    <a href="../nice/nice.html">Nice Attempt</a>
-    <a href="#">Unsued2</a>
 
+  <!-- Mission/Meet-me section -->
+  <section class="pt-5 pb-5">
+    <a name="calculator"></a>
+    <div class="container">
+      <div class="row">
+        <div class="heading-style col-12">Calculator</div>
+      </div>
+      <div id="mission-section" class="row">
+        <div id="mission-img" class="col-md-8 col-12">
+            <div class="row">
+                <div class="col">
+                    <button>1</button>
+                    <button>2</button>
+                    <button>3</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <button>4</button>
+                    <button>5</button>
+                    <button>6</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <button>7</button>
+                    <button>8</button>
+                    <button>9</button>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col">
+                    <button>0</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-12 mb-4 ">
+          <span id="output"></span>
+        </div>
+      </div>
     </div>
+  </section>
 
-    <div onclick=dispNum(1) id="one" class="butDig">1</div>
-    <div onclick=dispNum(2) id="two" class="butDig">2</div>
-    <div onclick=dispNum(3) id="three" class="butDig">3</div>
-    <div onclick=dispNum(4) id="four" class="butDig">4</div>
-    <div onclick=dispNum(5) id="five" class="butDig">5</div>
-    <div onclick=dispNum(6) id="six" class="butDig">6</div>
-    <div onclick=dispNum(7) id="seven" class="butDig">7</div>
-    <div onclick=dispNum(8) id="eight" class="butDig">8</div>
-    <div onclick=dispNum(9) id="nine" class="butDig">9</div>
-    <div onclick=dispNum(0) id="zero" class="butDig">0</div>
-
-    <script src="calcJS.js"></script>
-
-</body>
+  <!-- Footer section -->
+  <footer>
+    <h5>&#169; Ethan Tracy</h5> 
+  </footer>
+  <!-- Bootstrap Javascript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gulp/3.8.5/gulp.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
 </html>
