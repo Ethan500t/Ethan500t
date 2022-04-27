@@ -1,0 +1,48 @@
+
+
+* {
+  box-sizing: border-box;
+  --primary-background:#255C99;
+  --secondary-background:#a8caf0;
+  --primary-text-color:#b38c65;
+}
+
+body{
+  background-color:var(--primary-background);
+  color: var(--primary-text-color);
+  margin-top: 5vh;
+}
+
+.hidden {
+  display: none;
+}
+
+.centerSelf {
+  text-align:center;
+}
+
+.space-out-vertiical{
+  margin-top: 3rem;
+}
+
+.btn{
+  background-color: var(--secondary-background);
+  color: var(--primary-text-color);
+  border-color: var(--primary-text-color);
+}
+
+#guesses-box{
+  //width: 40vw;
+  //margin: auto;
+  padding: 1rem 0;
+
+  text-align:center;
+
+  background-color:var(--secondary-background);
+  border-radius: 2rem;
+
+}
+
+
+
+
