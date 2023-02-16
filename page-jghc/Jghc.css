@@ -1,0 +1,162 @@
+/* You can add custom CSS and override boostrap styles in this file.  Remember, bootstrap is just CSS at the end of the day! */
+
+/* I don't see the need for a block element here to push down the rest of the page? doing so does not change anything incredibly important for my page. My hero img actually looks better sans being pushed down */
+
+
+/* SIZZLE I used bootstrap to make the navbar transparent, and added my own background color since we could not edit the default SASS variables */
+#nav-color{
+  background-color:#CFC493;
+  color: #FFFFFF;
+  box-shadow: 0 0 15px 5px rgba(30, 30, 30, 0.1);
+}
+
+#hero-section {
+  /* This should be an image. */
+  background-image: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,0)), url(img/groupPhoto.JPG);
+  
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+  /* Change this values to work for you. */
+  padding: clamp(20px, 20vh, 1000px) 0;
+  height: 100vh;
+}
+
+#profile-img {
+  /* Change this values to work for you. */
+  margin: 10px auto;
+ 
+
+  /* This should be an image */
+  background-image: url(img/usflogo.png);
+  background-size: cover;
+  background-position: center;
+
+  /* Change this values to work for you. */
+  height: clamp(100px, 20vh, 500px);
+
+  /* Change this values to work for you. */
+  width: clamp(100px, 20vh, 500px);
+
+
+} 
+
+#hero-text {
+  text-align: center;
+  color: #CFC493;
+  margin: 40px auto;
+  font-size: clamp(20px, 2.5vw, 80px);
+  background-image: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4));
+  padding:1rem;
+  width:fit-content;
+}
+
+#creativity-img{
+  align-content: center;
+}
+
+#creativity-img img{
+  border-radius: 1vw;
+  max-height: clamp(30px, 30vw, 999px);
+}
+
+#code-img img{
+  border-radius: 1vw;
+  max-height: clamp(30px, 30vw, 999px);
+}
+
+#home-logo{
+  background-color:#005432;
+  padding: .25rem .5rem .25rem .5rem;
+  border-radius: .5rem;
+}
+
+#home-logo :hover{
+  background-color:#EDEBD1;
+}
+
+#final-text{
+  padding-bottom: 3rem;
+}
+
+.nav-link{
+  color: #EEEEEE;
+}
+
+.icon-style {
+  color:#121212;
+}
+
+.contact i:hover {
+  color: #F06C9B;
+}
+
+
+.heading-style{
+  margin: clamp(5px, 3vw, 200px) auto;
+  font-size: clamp(20px, 2.5vw, 80px);
+  text-align: center;
+  
+}
+
+.accent-background{
+  background-color:#EDEBD1;
+}
+
+.tighten{
+  padding: 0rem 3rem 3rem 3rem;
+}
+
+.code-headings{
+  margin-left: 2rem;
+}
+
+p{
+  font-size: clamp(1rem, 1.7vw, 5rem);
+}
+
+h3{
+  font-size: clamp(1rem, 1.7vw, 5rem);
+}
+
+h2{
+  font-size: clamp(1rem, 1.7vw, 5rem);
+}
+
+body{
+  background-color:#EEEEEE;
+  color: #121212;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+}
+
+footer{
+  height: 50px;
+  background-color: #005432;
+  color: #EEEEEE;
+  text-align: center;
+  padding: 10px;
+  margin-top:clamp(-50px, -3vw, -5px);
+}
+
+.code-comment{
+  font-size: 1.5rem;
+  color: #bdbdbd
+}
+
+.code-container{
+  background-color:#303030;
+  color: acacac;
+  padding: 1rem;
+  margin: 2rem;
+  border-width: .5rem;
+  border-radius: .5rem;
+  border-color:#303030;
+
+  min-height: 400px;
+}
+
+
+
+

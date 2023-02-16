@@ -1,0 +1,225 @@
+<!DOCTYPE html
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+
+	<!-- Remember to replace this with your title! -->
+	<title>Meet Ethan Tracy</title>
+
+	<!-- SIZZLE I brought in my fonts from a previous skill bulider and implemented them in my CSS -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Kaushan+Script&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Viaoda+Libre&display=swap"
+	 rel="stylesheet">
+   
+
+	<!-- Link for boostrap from: 
+    https://getbootstrap.com/docs/5.0/getting-started/introduction -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+	 crossorigin="anonymous">
+
+	<!-- Bootstrap Icons -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+	<!-- Custom styles (these can extend bootstrap which is JUST CSS!) -->
+	<link href="Jghc.css" rel="stylesheet" type="text/css" />
+	<link href="writeCodeWithPack.css" rel="stylesheet" type="text/css" />
+
+	<script type="text/javascript" scr="https://code.jquery.com/jquery-3.0.0.min.js">
+
+	</script>
+	<script type="text/javascript" scr="https://cdnjs.cloudflare.com/ajax/libs/typeit/6.5.1/typit.min.js">
+
+	</script>
+
+</head>
+
+<body>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.0.0.min.js">
+
+	</script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/typeit/6.5.1/typeit.min.js">
+
+	</script>
+
+	<a name="home"></a>
+	<!-- Navbar: Skip this and start with the hero section. When You're ready to return start by copy/pasting this snippet:
+
+  https://getbootstrap.com/docs/5.0/components/navbar/#nav 
+  -->
+	<!-- PASTE NAVBAR CODE TO CUSTOMIZE -->
+	<div id="navigation-filler"></div>
+
+	<div id="nav-color" class="sticky-top">
+		<nav id="nav-color" class="navbar navbar-expand-md navbar-light bg-transparent">
+			<div class="container-fluid">
+				<a id="home-logo" class="navbar-brand" href="#home">🏠</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav" id="navCrap">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#career">Career</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#issue">Issue</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#solution">Solution</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#expected-result">Expected Result</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav></div>
+  
+  <!-- Hero section -->
+  <section id="hero-section" class="container-fluid py-5">
+    <!-- Start writing your hero section here. -->
+    <div id="profile-img"></div>
+    <div id="hero-text">Ai Powered Programming</div>
+  </section>
+
+  <!-- Mission/Meet-me section -->
+  <section class="pt-5 pb-5">
+    <a name="career"></a>
+    <div class="container-fluid tighten">
+      <div class="row">
+        <div class="heading-style col-12">What does it take to program?</div>
+      </div>
+      <div class="row">
+        <div id="creativity-img" class="col-xl-6 col-12 mb-4">
+          <span><img class="mx-auto d-block" src="img/atrium.JPG" alt="Creativity stock imgage"></span>
+        </div>
+        <div class="col-xl-6 col-12">
+          <p> Programming is really like connecting two points using Tetris style blocks. Your goal is simple, but you have to take what you are given and use it extremely efficiently to be good at it. Programming is using a bunch of tools you are given that all have their own purpose and meshing them together in a way that allows you to take the info you are given or can collect and get to your desired outcome. Meaning that creativity plays a very large role in being a good programmer.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="accent-background pt-5 pb-5">
+    <a name="issue"></a>
+    <div class="container">
+      <div class="row">
+        <div class="heading-style col-12">What is Ai doing to Programming?</div>
+      </div>
+      <div class="row">
+        <div class="col-12 mb-6">
+          <p>
+            The issue that is arising due to the growth of AI technology is the possibility that the job is going to be fully replaced. While that is a long shot for now, a good course of action is to make use of AI to make yourself a better job candidate. <br> This is difficult right now because AI coding assistants are not generating new code on their own, they are using bits and pieces of code pieced together from open source projects found across the internet.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Code Section -->
+  <section class="pt-5 pb-5 d-none d-md-block">
+    <a name="human-ai-coding"></a>
+    <div class="container-fluid d-none d-md-block tighten">
+      <div class="row">
+        <div class="heading-style col-12">Human Coding Vs AI Coding?</div>
+      </div>
+      <div id="mission-section" class="row">
+        <div id="mission-img" class="col-md-6 col-12 mb-6">
+          <h3 class="code-headings">Human Code</h3>
+          <div class='code-container'>
+            <p class='code-comment'>Given #person object with attributes name, type, location, and properties. equal to (Ethan Tracy, Computer Engineer, Earth, Tired) </p>
+            <p id="human-code"></p>
+          </div>
+          <button id="human-code-button">Click to Reset</button>
+        </div>
+        <div class="col-md-6 col-6">
+          <h3 class="code-headings align-self-center">AI Code</h3>
+          <div class='code-container'>
+            <p class="code-comment">Given #person object with attributes name, type, location, and properties. equal to (Ethan Tracy, Computer Engineer, Earth, Tired) </p>
+            <p id="ai-code"></p>
+          </div>
+          <button id="ai-code-button">Click to Reset</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <h2>Is there anything wrong with how humans do it?</h2>
+          <p>No there is nothing inherently wrong with the way people program. If you look at my example of how humans code you can see how spelling mistakes and incorrect syntax can lead to wasted time here and there. Which there is nothing wrong with but it allows you to see some of the small benefits that AI has</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="accent-background pt-5 pb-5">
+    <a name="solution"></a>
+    <div class="container-fluid tighten">
+      <div class="row">
+        <div class="heading-style col-12">What I would like my AI to provide?</div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-12 mb-6 float-left">
+          <h2>Example Programming Problem</h2>
+          <p>
+            To illustrate what I would like my AI to accomplish I would like to use an example of how it will work to solve a problem. <br><br> Let’s say that we want to create a function ( Just a tool for doing a job easier) that multiplies 2 numbers we give it together and give the result back to us
+          </p>
+        </div>
+        <div id="code-img" class="col-md-8 col-12">
+          <span><img class="mx-auto d-block" src="img/frenchFries.JPG" alt="Code screen shot"></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pt-5 pb-5">
+    <div class="container-fluid tighten">
+      <div class="row">
+        <div class="heading-style col-12">Working example showing error.</div>
+      </div>
+      <div class="row">
+        <div class="">
+          <iframe src="https://trinket.io/embed/python/68d162787a" width="100%" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="accent-background pt-5 pb-5">
+    <a name="expected-result"></a>
+    <div class="container">
+      <div class="row">
+        <div class="heading-style col-12">What I expect to happen given this solution?</div>
+      </div>
+      <div class="row">
+        <p id="final-text">I expect that the baseline problem solving skills and creativity found in more novice programmers will greatly increase. I see this solution helping programmers get through the hardest part of their software development career, while also being able to come out better prepared for more complex projects and problems they run into.</p>
+      </div>
+    </div>
+  </section>
+
+    
+
+  
+
+  <!-- Footer section -->
+  <footer>
+    <h5>&#169; Ethan Tracy</h5> 
+  </footer>
+  <!-- Bootstrap Javascript -->
+
+  <script src='Jghc.js'></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/typeit@8.2.0/dist/typeit.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gulp/3.8.5/gulp.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+  <script src='writeCodeWithPack.js'></script>
+  </body>
+</html>
